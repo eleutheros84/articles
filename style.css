@@ -12,20 +12,20 @@ article{
   align-items: center;
   position:relative;
   background-color: ccffcc;
+  padding: 20px;
 }
 
-img{
+article img{
   float: left;
   margin-right: 20px;
 }
 
-h2{
+article h2{
     text-align: center;
     justify-content: center;
 }
 
-p{
-  margin: 20px;
+article p{
   text-align: justify;
 
 }
@@ -36,13 +36,14 @@ p{
   font-weight: bold;
 }
 
-article:hover .lien{
+article:hover p.lien{
   transform: scale(1.5);
+  transition: transform 1s ease-in-out, color 1s;
   font-weight: bolder;
   color: grey;
 }
 
-button{
+article button{
   border-radius: 5px;
   background-color: black;
   color: white;
